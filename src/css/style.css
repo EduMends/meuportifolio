@@ -32,8 +32,8 @@ body {
     display:flex;
     flex-direction: column;
     align-content: center;
-    background-image: url(../imagens/bg-portifolio.jpg);
-    background-size: cover; 
+    background-image: url(../imagens/bg-portifolio.jpg); 
+    background-attachment: fixed; 
 }
 
 .cabecalho {
@@ -137,7 +137,7 @@ body {
 
 .apresentacao .curriculo__img {
     position: relative;
-    top: -169px;
+    top: -127px;
 }
 .rodape {
     background-color: var(--cor001);
