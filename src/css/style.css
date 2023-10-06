@@ -12,6 +12,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    list-style: none;
 }
 
 body::after {
@@ -32,12 +33,11 @@ body {
     flex-direction: column;
     align-content: center;
     background-image: url(../imagens/bg-portifolio.jpg);
-    background-size: cover;
-    
+    background-size: cover; 
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% 18%;
     width: 299px;
     z-index: 1;
 }
@@ -63,10 +63,10 @@ body {
     color: var(--cor001);
 }
 .apresentacao {
-    padding: 6% 15%;
+    padding: 6% 18%;
     display: flex;
     align-items: center; 
-    gap: 180px;
+    gap: 85px;
     z-index: 1;
 }
 
@@ -122,6 +122,23 @@ body {
 .apresentacao__links__link:hover {
     background-color: #22d5fd42
 }
+.lista {
+    font-family: var(--textos);
+    font-size: 20px;
+    line-height: 40px;
+}
+.lista a {
+    text-decoration:none;
+    color: var(--cor001);
+}
+.lista a:hover {
+    color: #00fff2;
+}
+
+.apresentacao .curriculo__img {
+    position: relative;
+    top: -169px;
+}
 .rodape {
     background-color: var(--cor001);
     font-family: var(--textos);
@@ -131,4 +148,14 @@ body {
     color: black;
     padding: 20px;
     z-index: 1;
+}
+
+.about .rodape {
+    position: relative;
+    top: 100px;
+}
+
+.about img {
+    position: relative;
+    top: 34px;
 }
