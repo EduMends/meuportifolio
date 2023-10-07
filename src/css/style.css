@@ -209,8 +209,7 @@ body {
 @media (max-width: 480px) {
     body {
         height: 100vh;
-        background-color: black;
-        background: url(../imagens/bg-portifolio.jpg) top center no-repeat;
+        background: black url(../imagens/bg-portifolio.jpg) top center no-repeat;
         background-size: cover;
         background-attachment: fixed;
         
@@ -246,8 +245,7 @@ body {
 @media (max-width: 410px) {
     body {
         height: 100vh;
-        background-color: black;
-        background: url(../imagens/bg-portifolio.jpg) center center no-repeat;
+        background: black url(../imagens/bg-portifolio.jpg) center center no-repeat;
         background-size: cover;
         background-attachment: fixed;
     }
