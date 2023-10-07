@@ -136,7 +136,6 @@ body {
 
 .apresentacao .curriculo__img {
     position: relative;
-    top: -127px;
     width: 39,9%;
 }
 .rodape {
@@ -193,8 +192,7 @@ body {
         padding: 0px;
     }
     .apresentacao .curriculo__img {
-        width: 65%;
-        top: -50px;
+        width: 80%;
     }
     .rodape {
         font-size: 1.2rem;
@@ -241,7 +239,6 @@ body {
 }
 @media (max-width: 410px) {
     body {
-        background-color: black;
         background: url(../imagens/bg-portifolio.jpg) center center;
         background-size: cover;
         background-attachment: fixed;
