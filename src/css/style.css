@@ -248,7 +248,7 @@ body {
         height: 100vh;
         background-color: black;
         background: url(../imagens/bg-portifolio.jpg) center center no-repeat;
-        background-size: auto;
+        background-size: cover;
         background-attachment: fixed;
     }
     .cabecalho__menu {
