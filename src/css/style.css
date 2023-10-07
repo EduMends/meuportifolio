@@ -203,9 +203,10 @@ body {
 
 @media (max-width: 480px) {
     body {
+        height: 100vh;
         background-color: black;
-        background: url(../imagens/bg-portifolio.jpg) top center;
-        background-size: cover;
+        background: url(../imagens/bg-portifolio.jpg) top center no-repeat;
+        background-size: auto;
         background-attachment: fixed;
         
     }
@@ -239,8 +240,10 @@ body {
 }
 @media (max-width: 410px) {
     body {
-        background: url(../imagens/bg-portifolio.jpg) center center;
-        background-size: cover;
+        height: 100vh;
+        background-color: black;
+        background: url(../imagens/bg-portifolio.jpg) center center no-repeat;
+        background-size: auto;
         background-attachment: fixed;
     }
     .cabecalho__menu {
