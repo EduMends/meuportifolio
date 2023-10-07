@@ -205,7 +205,9 @@ body {
 
 @media (max-width: 480px) {
     body {
+        background-color: black;
         background: url(../imagens/bg-portifolio.jpg) top center;
+        background-size: cover;
         
     }
     .apresentacao {
@@ -238,8 +240,9 @@ body {
 }
 @media (max-width: 410px) {
     body {
+        background-color: black;
         background: url(../imagens/bg-portifolio.jpg) center center;
-        background-attachment:  fixed;
+        background-size: cover;
     }
     .cabecalho__menu {
         gap: 40px;
