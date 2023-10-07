@@ -208,6 +208,7 @@ body {
         background-color: black;
         background: url(../imagens/bg-portifolio.jpg) top center;
         background-size: cover;
+        background-attachment: fixed;
         
     }
     .apresentacao {
@@ -243,6 +244,7 @@ body {
         background-color: black;
         background: url(../imagens/bg-portifolio.jpg) center center;
         background-size: cover;
+        background-attachment: fixed;
     }
     .cabecalho__menu {
         gap: 40px;
