@@ -206,7 +206,7 @@ body {
 @media (max-width: 480px) {
     body {
         background: url(../imagens/bg-portifolio.jpg) top center;
-        background-attachment:  fixed;
+        
     }
     .apresentacao {
         padding: 5%;
